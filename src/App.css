@@ -1,0 +1,134 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.logcontainer{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.bgimage{
+  background:url(https://i.pinimg.com/736x/06/26/13/062613231a04bcea7bdbe83a8ad1c63c.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+.heading1{
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+}
+label{
+  color: white;
+  font-family: sans-serif;
+}
+.inpt{
+  background: transparent;
+  font-family: monospace;
+}
+.inpt::placeholder{
+  color: white;
+}
+.btn-success{
+  background: transparent;
+  transition: 0.5s ease;
+  letter-spacing: 2px;
+  font-family: monospace;
+  font-size: 15px;
+  margin: 10px;
+}
+.anch{
+  color: white;
+}
+.pimg{
+  height: 100px;
+  width: 100px;
+}
+.maindiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  
+}
+.pimg{
+  height: 200px;
+  width: 200px;
+}
+.div2{
+  padding: 10px;
+}
+.hero{
+  width: 100%;
+  min-height: 100vh;
+  background: #eceaff;
+  color: #525252;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search{
+  margin: 100px 2px;
+  padding: 10px;
+  width: 250px;
+}
+.btndiv{
+  display: flex;
+  justify-content: space-evenly;
+}
+.cartbtn{
+  background-color: #fcbf49;
+  color: white;  
+}
+.cartbtn:hover{
+  background-color: white;
+  color:#fcbf49 ;
+  border-color: #fcbf49;
+}
+#dlt:hover{
+  color: rgb(255, 7, 7);
+}
+#dlt{
+  color: white;
+}
+.btn{
+  color: white;
+}
